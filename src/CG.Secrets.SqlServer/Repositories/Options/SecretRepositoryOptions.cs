@@ -1,4 +1,4 @@
-﻿using CG.Business.Repositories.Options;
+﻿using CG.Linq.EFCore.Repositories.Options;
 using System;
 
 namespace CG.Secrets.SqlServer.Repositories.Options
@@ -7,7 +7,7 @@ namespace CG.Secrets.SqlServer.Repositories.Options
     /// This class represents configuration options for the <see cref="SecretRepository"/>
     /// class.
     /// </summary>
-    public class SecretRepositoryOptions : RepositoryOptions
+    public class SecretRepositoryOptions : EFCoreRepositoryOptions
     {
         // *******************************************************************
         // Properties.

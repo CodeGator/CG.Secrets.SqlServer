@@ -1,7 +1,7 @@
 ﻿using CG.Linq.EFCore;
 using CG.Secrets.Repositories;
-using CG.Secrets.SqlServer.Options;
 using CG.Secrets.SqlServer.Repositories;
+using CG.Secrets.SqlServer.Repositories.Options;
 using CG.Validations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -43,7 +43,7 @@ namespace CG.Secrets.SqlServer
                 .ThrowIfNull(configuration, nameof(configuration));
 
             // Register the EFCORE options.
-            serviceCollection.ConfigureOptions<SecretsRepositoryOptions>(
+            serviceCollection.ConfigureOptions<SecretRepositoryOptions>(
                 configuration,
                 out var repositoryOptions
                 );
@@ -52,7 +52,7 @@ namespace CG.Secrets.SqlServer
             serviceCollection.AddTransient<SecretDbContext>(serviceProvider =>
             {
                 // Get the options from the DI container.
-                var options = serviceProvider.GetRequiredService<IOptions<SecretsRepositoryOptions>>();
+                var options = serviceProvider.GetRequiredService<IOptions<SecretRepositoryOptions>>();
 
                 // Create the options builder.
                 var builder = new DbContextOptionsBuilder<SecretDbContext>();
