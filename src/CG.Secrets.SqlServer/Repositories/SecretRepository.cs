@@ -31,7 +31,6 @@ namespace CG.Secrets.SqlServer.Repositories
         /// This constructor creates a new instance of the <see cref="SecretRepository"/>
         /// class.
         /// </summary>
-        /// repository.</param>
         public SecretRepository(
             IOptions<SecretRepositoryOptions> options,
             DbContextFactory<SecretDbContext> factory
@@ -49,7 +48,7 @@ namespace CG.Secrets.SqlServer.Repositories
         #region Public methods
 
         /// <inheritdoc/>
-        public virtual async Task<Secret> GetByNameAsync(
+        public virtual Task<Secret> GetByNameAsync(
             string name,
             CancellationToken cancellationToken = default
             )
@@ -68,7 +67,7 @@ namespace CG.Secrets.SqlServer.Repositories
                     );
 
                 // Return the results.
-                return model;
+                return Task.FromResult(model);
             }
             catch (Exception ex)
             {

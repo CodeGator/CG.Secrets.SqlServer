@@ -6,7 +6,7 @@ namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IServiceCollection"/>
-    /// type, for registering types from the <see cref="CG.Secrets.Azure"/> library.
+    /// type, for registering types from the <see cref="CG.Secrets.SqlServer"/> library.
     /// </summary>
     public static partial class SecretsSqlServiceCollectionExtensions
     {
