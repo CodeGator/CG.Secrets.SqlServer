@@ -149,6 +149,19 @@ references:
   commentId: T:CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions
   fullName: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions
   nameWithType: SecretsApplicationBuilderExtensions
+- uid: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.String)
+  name: UseSqlServerRepositories(IApplicationBuilder, String)
+  href: api/CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.html#CG_Secrets_SqlServer_SecretsApplicationBuilderExtensions_UseSqlServerRepositories_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_String_
+  commentId: M:CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.String)
+  fullName: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.String)
+  nameWithType: SecretsApplicationBuilderExtensions.UseSqlServerRepositories(IApplicationBuilder, String)
+- uid: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories*
+  name: UseSqlServerRepositories
+  href: api/CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.html#CG_Secrets_SqlServer_SecretsApplicationBuilderExtensions_UseSqlServerRepositories_
+  commentId: Overload:CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories
+  nameWithType: SecretsApplicationBuilderExtensions.UseSqlServerRepositories
 - uid: CG.Secrets.SqlServer.SecretsServiceCollectionExtensions
   name: SecretsServiceCollectionExtensions
   href: api/CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.html
