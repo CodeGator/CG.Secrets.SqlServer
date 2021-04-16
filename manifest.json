@@ -1,0 +1,320 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.html",
+          "hash": "smHeIHAkR68mxCwrpKFteAJOfvZreVMNSARSeBcJBEw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions.html",
+          "hash": "XDCjMbxTMKxPIu8zpKxXfNrioGB4EZ3LBxmd3kjD32c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.Repositories.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.Repositories.Options.html",
+          "hash": "aMd1ZrLLHGNTKqX24KTnNgxLZzF3v8Ii0GQ9uehFK8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.Repositories.SecretRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.Repositories.SecretRepository.html",
+          "hash": "YQt93BeWCKfK3DvN9+XkOJwi6pWpB1HtxbHmRz25wP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.Repositories.html",
+          "hash": "Qhy7DZtKxhIiPo77hzbu7zUjY0MCn9Ui1fksCEho/PA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.SecretDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.SecretDbContext.html",
+          "hash": "WFsksH5hpx7KFvKtihKf4cWA7CBO1bmzVjpd/fOK32E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.html",
+          "hash": "WVjlyxH6YFNxz04KHlJE5a1JN36g+BV/BPucq7SMT2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.html",
+          "hash": "7pF6ZdXW7EPZVLvMPiFC2R9Dx0RKLC+DnXqSzwso+VI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Secrets.SqlServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Secrets.SqlServer.html",
+          "hash": "YqeRCaflC2XjM5XE/seYfls4MmznaSV+hjoTPlwrHbA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.html",
+          "hash": "K02/jpdULKh62DUk3/Atya7uuYaunJEfQIWLUP9Os0w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "axfPwunh08WiTzdC7FKxUW9p/8XIg6eMXRhJhSIcPEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "mIGq6MN1+9d74YgASjE2Zbhjaae5Yi7RhfyjQoXNYjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "3q1njGbR3qWvRdDrSlyL7w0jUnqyLq7rGtI7K+AGEi0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "gcp1JB3/cLklcT+72krfnba+6CuoFkaQtheZ9cEBdjQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-167x79.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-167x79.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-334x158.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-334x158.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-500x236.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-500x236.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/codegator-667x315.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/codegator-667x315.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "OLYpBvhWEvY4cAChdN2qK6tOIlvrdtx5e/8tiuVpO9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "SQ8Fg9AQ7oNckuS0QeyPr0/E9IovylgZTZLvZAWqIUA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
