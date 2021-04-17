@@ -1,9 +1,9 @@
 # CG.Secrets.SqlServer: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Secrets.SqlServer/_apis/build/status/CodeGator.CG.Secrets.SqlServer?branchName=master)](https://dev.azure.com/codegator/CG.Secrets.SqlServer/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/codegator/CG.Secrets.SqlServer/_apis/build/status/CodeGator.CG.Secrets.SqlServer?branchName=main)](https://dev.azure.com/codegator/CG.Secrets.SqlServer/_build/latest?definitionId=51&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Secrets.SqlServer/)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Secrets.SqlServer.svg?style=flat)](https://nuget.org/packages/CG.Secrets.SqlServer)
-![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Secrets.SqlServer/1)
+![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Secrets.SqlServer/51)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Secrets.SqlServer/discussions)
 
 #### What does it do?
