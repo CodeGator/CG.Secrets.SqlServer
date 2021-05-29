@@ -1,5 +1,6 @@
 ﻿using CG.Linq.EFCore.Repositories.Options;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace CG.Secrets.SqlServer.Repositories.Options
 {
@@ -14,7 +15,8 @@ namespace CG.Secrets.SqlServer.Repositories.Options
         // *******************************************************************
 
         #region Properties
-        
+                
+
         #endregion
     }
 }

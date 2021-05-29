@@ -68,7 +68,7 @@ namespace CG.Secrets.SqlServer
             });
 
             // Register the data-context factory.
-            serviceCollection.Add<DbContextFactory<SecretDbContext>>(serviceLifetime);
+            serviceCollection.Add<IDbContextFactory<SecretDbContext>>(serviceLifetime);
 
             // Register the repositories.
             serviceCollection.Add<ISecretRepository, SecretRepository>(serviceLifetime);
