@@ -6,6 +6,7 @@ using CG.Secrets.Repositories;
 using CG.Secrets.SqlServer.Repositories.Options;
 using CG.Validations;
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System;
 using System.Linq;
@@ -49,7 +50,7 @@ namespace CG.Secrets.SqlServer.Repositories
         /// </summary>
         public SecretRepository(
             IOptions<SecretRepositoryOptions> options,
-            DbContextFactory<SecretDbContext> factory,
+            IDbContextFactory<SecretDbContext> factory,
             IDataProtectionProvider dataProtectionProvider
             ) : base(options, factory)
         {
@@ -80,7 +81,7 @@ namespace CG.Secrets.SqlServer.Repositories
                 Guard.Instance().ThrowIfNullOrEmpty(name, nameof(name));
 
                 // Create a context.
-                var context = Factory.Create();
+                var context = Factory.CreateDbContext();
 
                 // Defer to the data-context.
                 var model = context.Secrets.FirstOrDefault(
@@ -127,7 +128,7 @@ namespace CG.Secrets.SqlServer.Repositories
                 Guard.Instance().ThrowIfNullOrEmpty(name, nameof(name));
 
                 // Create a context.
-                var context = Factory.Create();
+                var context = Factory.CreateDbContext();
 
                 // Create a data protector.
                 var dataProtector = DataProtectionProvider.CreateProtector(
