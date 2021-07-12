@@ -1,3 +1,221 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: CG.Secrets.SqlServer
+  name: CG.Secrets.SqlServer
+  href: api/CG.Secrets.SqlServer.html
+  commentId: N:CG.Secrets.SqlServer
+  fullName: CG.Secrets.SqlServer
+  nameWithType: CG.Secrets.SqlServer
+- uid: CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory
+  name: DesignTimeSecretDbContextFactory
+  href: api/CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.html
+  commentId: T:CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory
+  fullName: CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory
+  nameWithType: DesignTimeSecretDbContextFactory
+- uid: CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.CreateDbContext(System.String[])
+  name: CreateDbContext(String[])
+  href: api/CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.html#CG_Secrets_SqlServer_DesignTimeSecretDbContextFactory_CreateDbContext_System_String___
+  commentId: M:CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.CreateDbContext(System.String[])
+  name.vb: CreateDbContext(String())
+  fullName: CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.CreateDbContext(System.String[])
+  fullName.vb: CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.CreateDbContext(System.String())
+  nameWithType: DesignTimeSecretDbContextFactory.CreateDbContext(String[])
+  nameWithType.vb: DesignTimeSecretDbContextFactory.CreateDbContext(String())
+- uid: CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.CreateDbContext*
+  name: CreateDbContext
+  href: api/CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.html#CG_Secrets_SqlServer_DesignTimeSecretDbContextFactory_CreateDbContext_
+  commentId: Overload:CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.CreateDbContext
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.DesignTimeSecretDbContextFactory.CreateDbContext
+  nameWithType: DesignTimeSecretDbContextFactory.CreateDbContext
+- uid: CG.Secrets.SqlServer.Repositories
+  name: CG.Secrets.SqlServer.Repositories
+  href: api/CG.Secrets.SqlServer.Repositories.html
+  commentId: N:CG.Secrets.SqlServer.Repositories
+  fullName: CG.Secrets.SqlServer.Repositories
+  nameWithType: CG.Secrets.SqlServer.Repositories
+- uid: CG.Secrets.SqlServer.Repositories.Options
+  name: CG.Secrets.SqlServer.Repositories.Options
+  href: api/CG.Secrets.SqlServer.Repositories.Options.html
+  commentId: N:CG.Secrets.SqlServer.Repositories.Options
+  fullName: CG.Secrets.SqlServer.Repositories.Options
+  nameWithType: CG.Secrets.SqlServer.Repositories.Options
+- uid: CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions
+  name: SecretRepositoryOptions
+  href: api/CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions.html
+  commentId: T:CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions
+  fullName: CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions
+  nameWithType: SecretRepositoryOptions
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository
+  name: SecretRepository
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html
+  commentId: T:CG.Secrets.SqlServer.Repositories.SecretRepository
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository
+  nameWithType: SecretRepository
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.#ctor(Microsoft.Extensions.Options.IOptions{CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions},Microsoft.EntityFrameworkCore.IDbContextFactory{CG.Secrets.SqlServer.SecretDbContext},Microsoft.AspNetCore.DataProtection.IDataProtectionProvider)
+  name: SecretRepository(IOptions<SecretRepositoryOptions>, IDbContextFactory<SecretDbContext>, IDataProtectionProvider)
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository__ctor_Microsoft_Extensions_Options_IOptions_CG_Secrets_SqlServer_Repositories_Options_SecretRepositoryOptions__Microsoft_EntityFrameworkCore_IDbContextFactory_CG_Secrets_SqlServer_SecretDbContext__Microsoft_AspNetCore_DataProtection_IDataProtectionProvider_
+  commentId: M:CG.Secrets.SqlServer.Repositories.SecretRepository.#ctor(Microsoft.Extensions.Options.IOptions{CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions},Microsoft.EntityFrameworkCore.IDbContextFactory{CG.Secrets.SqlServer.SecretDbContext},Microsoft.AspNetCore.DataProtection.IDataProtectionProvider)
+  name.vb: SecretRepository(IOptions(Of SecretRepositoryOptions), IDbContextFactory(Of SecretDbContext), IDataProtectionProvider)
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.SecretRepository(Microsoft.Extensions.Options.IOptions<CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions>, Microsoft.EntityFrameworkCore.IDbContextFactory<CG.Secrets.SqlServer.SecretDbContext>, Microsoft.AspNetCore.DataProtection.IDataProtectionProvider)
+  fullName.vb: CG.Secrets.SqlServer.Repositories.SecretRepository.SecretRepository(Microsoft.Extensions.Options.IOptions(Of CG.Secrets.SqlServer.Repositories.Options.SecretRepositoryOptions), Microsoft.EntityFrameworkCore.IDbContextFactory(Of CG.Secrets.SqlServer.SecretDbContext), Microsoft.AspNetCore.DataProtection.IDataProtectionProvider)
+  nameWithType: SecretRepository.SecretRepository(IOptions<SecretRepositoryOptions>, IDbContextFactory<SecretDbContext>, IDataProtectionProvider)
+  nameWithType.vb: SecretRepository.SecretRepository(IOptions(Of SecretRepositoryOptions), IDbContextFactory(Of SecretDbContext), IDataProtectionProvider)
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.#ctor*
+  name: SecretRepository
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository__ctor_
+  commentId: Overload:CG.Secrets.SqlServer.Repositories.SecretRepository.#ctor
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.SecretRepository
+  nameWithType: SecretRepository.SecretRepository
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.DataProtectionProvider
+  name: DataProtectionProvider
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository_DataProtectionProvider
+  commentId: P:CG.Secrets.SqlServer.Repositories.SecretRepository.DataProtectionProvider
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.DataProtectionProvider
+  nameWithType: SecretRepository.DataProtectionProvider
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.DataProtectionProvider*
+  name: DataProtectionProvider
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository_DataProtectionProvider_
+  commentId: Overload:CG.Secrets.SqlServer.Repositories.SecretRepository.DataProtectionProvider
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.DataProtectionProvider
+  nameWithType: SecretRepository.DataProtectionProvider
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  name: GetByNameAsync(String, CancellationToken)
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository_GetByNameAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.SqlServer.Repositories.SecretRepository.GetByNameAsync(System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.GetByNameAsync(System.String, System.Threading.CancellationToken)
+  nameWithType: SecretRepository.GetByNameAsync(String, CancellationToken)
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.GetByNameAsync*
+  name: GetByNameAsync
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository_GetByNameAsync_
+  commentId: Overload:CG.Secrets.SqlServer.Repositories.SecretRepository.GetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.GetByNameAsync
+  nameWithType: SecretRepository.GetByNameAsync
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  name: SetByNameAsync(String, String, CancellationToken)
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository_SetByNameAsync_System_String_System_String_System_Threading_CancellationToken_
+  commentId: M:CG.Secrets.SqlServer.Repositories.SecretRepository.SetByNameAsync(System.String,System.String,System.Threading.CancellationToken)
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.SetByNameAsync(System.String, System.String, System.Threading.CancellationToken)
+  nameWithType: SecretRepository.SetByNameAsync(String, String, CancellationToken)
+- uid: CG.Secrets.SqlServer.Repositories.SecretRepository.SetByNameAsync*
+  name: SetByNameAsync
+  href: api/CG.Secrets.SqlServer.Repositories.SecretRepository.html#CG_Secrets_SqlServer_Repositories_SecretRepository_SetByNameAsync_
+  commentId: Overload:CG.Secrets.SqlServer.Repositories.SecretRepository.SetByNameAsync
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.Repositories.SecretRepository.SetByNameAsync
+  nameWithType: SecretRepository.SetByNameAsync
+- uid: CG.Secrets.SqlServer.SecretDbContext
+  name: SecretDbContext
+  href: api/CG.Secrets.SqlServer.SecretDbContext.html
+  commentId: T:CG.Secrets.SqlServer.SecretDbContext
+  fullName: CG.Secrets.SqlServer.SecretDbContext
+  nameWithType: SecretDbContext
+- uid: CG.Secrets.SqlServer.SecretDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{CG.Secrets.SqlServer.SecretDbContext})
+  name: SecretDbContext(DbContextOptions<SecretDbContext>)
+  href: api/CG.Secrets.SqlServer.SecretDbContext.html#CG_Secrets_SqlServer_SecretDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_CG_Secrets_SqlServer_SecretDbContext__
+  commentId: M:CG.Secrets.SqlServer.SecretDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{CG.Secrets.SqlServer.SecretDbContext})
+  name.vb: SecretDbContext(DbContextOptions(Of SecretDbContext))
+  fullName: CG.Secrets.SqlServer.SecretDbContext.SecretDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<CG.Secrets.SqlServer.SecretDbContext>)
+  fullName.vb: CG.Secrets.SqlServer.SecretDbContext.SecretDbContext(Microsoft.EntityFrameworkCore.DbContextOptions(Of CG.Secrets.SqlServer.SecretDbContext))
+  nameWithType: SecretDbContext.SecretDbContext(DbContextOptions<SecretDbContext>)
+  nameWithType.vb: SecretDbContext.SecretDbContext(DbContextOptions(Of SecretDbContext))
+- uid: CG.Secrets.SqlServer.SecretDbContext.#ctor*
+  name: SecretDbContext
+  href: api/CG.Secrets.SqlServer.SecretDbContext.html#CG_Secrets_SqlServer_SecretDbContext__ctor_
+  commentId: Overload:CG.Secrets.SqlServer.SecretDbContext.#ctor
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.SecretDbContext.SecretDbContext
+  nameWithType: SecretDbContext.SecretDbContext
+- uid: CG.Secrets.SqlServer.SecretDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: OnModelCreating(ModelBuilder)
+  href: api/CG.Secrets.SqlServer.SecretDbContext.html#CG_Secrets_SqlServer_SecretDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:CG.Secrets.SqlServer.SecretDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: CG.Secrets.SqlServer.SecretDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: SecretDbContext.OnModelCreating(ModelBuilder)
+- uid: CG.Secrets.SqlServer.SecretDbContext.OnModelCreating*
+  name: OnModelCreating
+  href: api/CG.Secrets.SqlServer.SecretDbContext.html#CG_Secrets_SqlServer_SecretDbContext_OnModelCreating_
+  commentId: Overload:CG.Secrets.SqlServer.SecretDbContext.OnModelCreating
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.SecretDbContext.OnModelCreating
+  nameWithType: SecretDbContext.OnModelCreating
+- uid: CG.Secrets.SqlServer.SecretDbContext.Secrets
+  name: Secrets
+  href: api/CG.Secrets.SqlServer.SecretDbContext.html#CG_Secrets_SqlServer_SecretDbContext_Secrets
+  commentId: P:CG.Secrets.SqlServer.SecretDbContext.Secrets
+  fullName: CG.Secrets.SqlServer.SecretDbContext.Secrets
+  nameWithType: SecretDbContext.Secrets
+- uid: CG.Secrets.SqlServer.SecretDbContext.Secrets*
+  name: Secrets
+  href: api/CG.Secrets.SqlServer.SecretDbContext.html#CG_Secrets_SqlServer_SecretDbContext_Secrets_
+  commentId: Overload:CG.Secrets.SqlServer.SecretDbContext.Secrets
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.SecretDbContext.Secrets
+  nameWithType: SecretDbContext.Secrets
+- uid: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions
+  name: SecretsApplicationBuilderExtensions
+  href: api/CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.html
+  commentId: T:CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions
+  fullName: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions
+  nameWithType: SecretsApplicationBuilderExtensions
+- uid: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.String)
+  name: UseSqlServerRepositories(IApplicationBuilder, String)
+  href: api/CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.html#CG_Secrets_SqlServer_SecretsApplicationBuilderExtensions_UseSqlServerRepositories_Microsoft_AspNetCore_Builder_IApplicationBuilder_System_String_
+  commentId: M:CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.String)
+  fullName: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.String)
+  nameWithType: SecretsApplicationBuilderExtensions.UseSqlServerRepositories(IApplicationBuilder, String)
+- uid: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories*
+  name: UseSqlServerRepositories
+  href: api/CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.html#CG_Secrets_SqlServer_SecretsApplicationBuilderExtensions_UseSqlServerRepositories_
+  commentId: Overload:CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.SecretsApplicationBuilderExtensions.UseSqlServerRepositories
+  nameWithType: SecretsApplicationBuilderExtensions.UseSqlServerRepositories
+- uid: CG.Secrets.SqlServer.SecretsServiceCollectionExtensions
+  name: SecretsServiceCollectionExtensions
+  href: api/CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.html
+  commentId: T:CG.Secrets.SqlServer.SecretsServiceCollectionExtensions
+  fullName: CG.Secrets.SqlServer.SecretsServiceCollectionExtensions
+  nameWithType: SecretsServiceCollectionExtensions
+- uid: CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.AddSqlServerRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddSqlServerRepositories(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.html#CG_Secrets_SqlServer_SecretsServiceCollectionExtensions_AddSqlServerRepositories_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.AddSqlServerRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.AddSqlServerRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: SecretsServiceCollectionExtensions.AddSqlServerRepositories(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.AddSqlServerRepositories*
+  name: AddSqlServerRepositories
+  href: api/CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.html#CG_Secrets_SqlServer_SecretsServiceCollectionExtensions_AddSqlServerRepositories_
+  commentId: Overload:CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.AddSqlServerRepositories
+  isSpec: "True"
+  fullName: CG.Secrets.SqlServer.SecretsServiceCollectionExtensions.AddSqlServerRepositories
+  nameWithType: SecretsServiceCollectionExtensions.AddSqlServerRepositories
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions
+  name: SecretsSqlServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions
+  nameWithType: SecretsSqlServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  name: AddSqlServerRepositories(IServiceCollection, IConfiguration, ServiceLifetime)
+  href: api/Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_SecretsSqlServiceCollectionExtensions_AddSqlServerRepositories_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories(IServiceCollection, IConfiguration, ServiceLifetime)
+- uid: Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories*
+  name: AddSqlServerRepositories
+  href: api/Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_SecretsSqlServiceCollectionExtensions_AddSqlServerRepositories_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories
+  nameWithType: SecretsSqlServiceCollectionExtensions.AddSqlServerRepositories
